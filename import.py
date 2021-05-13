@@ -20,10 +20,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 nltk.download('polarity_scores')
 
 # Authentication
-consumerKey = "VIHUejGqa07Ot8BlekZ4QWNb7"
-consumerSecret = "C6nOws24zZHnNETCpO4YnFoYZWAC4OLSnrMqryPyCjboQrBLAF"
-accessToken = "1098876672705626112-1npXwkvGLrPQjWb2nUoWe3FSj0kLGT"
-accessTokenSecret = "oGuvU1F6qIonTHqoSjJCTFJ5pjtZabgqgPdKaCglUbVmn"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(auth)
